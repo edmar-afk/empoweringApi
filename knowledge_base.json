@@ -1,79 +1,359 @@
-{	"questions": [
-		{
-			"question": "What is the color of the sky?",
-			"answer": "Blue"
-		},
-		{
-			"question": "how are you",
-			"answer": "I'm doing great!"
-		},
-		{
-			"question": "How are you doing mate?",
-			"answer": "I'm doing good"
-		},
-		{
-			"question": "What's up?^",
-			"answer": "Not much, what about you?"
-		},
-		{
-			"question": "Where can I subscribe?",
-			"answer": "Idk, subscribe to what?"
-		},
-		{
-			"question": "Say something funny",
-			"answer": "Your love life"
-		},
-		{
-			"question": "tell me more",
-			"answer": "I don't want to"
-		},
-		{
-			"question": "ok",
-			"answer": "ok?"
-		},
-		{
-			"question": "hello",
-			"answer": "Hello, how can I help you?"
-		},
-		{
-			"question": "I need help of something",
-			"answer": "What something? Please be more specific so I can assist you."
-		},
-		{
-			"question": "can you help me?",
-			"answer": "Sure, just tell me what kind of help"
-		},
-		{
-			"question": "Good morning",
-			"answer": "Hello, Good morning"
-		},
-		{
-			"question": "hello good afternoon mate",
-			"answer": "Good afternoon"
-		},
-		{
-			"question": "Good day, mate",
-			"answer": "Good day to you too! How can I assist you today?"
-		},
-		{
-			"question": "bye",
-			"answer": "Goodbye! If you have any more questions in the future, feel free to ask. Have a great day!"
-		},
-		{
-			"question": "Cool",
-			"answer": "I'm Cool"
-		},
-		{
-			"question": "hi",
-			"answer": "hello"
-		},
-		{
-			"question": "hey",
-			"answer": "Hey there!"
-		},
-		{
-			"question": "hey",
-			"answer": "Hey there again!"
-		}
-	]
+{	"questions": [	{ "question": "What is the color of the sky?", "answer": "Blue" },	{		"question": "how are you",		"answer": "I'm doing great!"	},
+	{
+		"question": "How are you doing mate?",
+		"answer": "I'm doing good"
+	},
+	{
+		"question": "What's up?^",
+		"answer": "Not much, what about you?"
+	},
+	{
+		"question": "Where can I subscribe?",
+		"answer": "Idk, subscribe to what?"
+	},
+	{
+		"question": "Say something funny",
+		"answer": "Your love life"
+	},
+	{
+		"question": "tell me more",
+		"answer": "I don't want to"
+	},
+	{
+		"question": "ok",
+		"answer": "ok?"
+	},
+	{
+		"question": "hello",
+		"answer": "Hello, how can I help you?"
+	},
+	{
+		"question": "I need help of something",
+		"answer": "What something? Please be more specific so I can assist you."
+	},
+	{
+		"question": "can you help me?",
+		"answer": "Sure, just tell me what kind of help"
+	},
+	{
+		"question": "Good morning",
+		"answer": "Hello, Good morning"
+	},
+	{
+		"question": "hello good afternoon mate",
+		"answer": "Good afternoon"
+	},
+	{
+		"question": "Good day, mate",
+		"answer": "Good day to you too! How can I assist you today?"
+	},
+	{
+		"question": "bye",
+		"answer": "Goodbye! If you have any more questions in the future, feel free to ask. Have a great day!"
+	},
+	{
+		"question": "Cool",
+		"answer": "I'm Cool"
+	},
+	{
+		"question": "hi",
+		"answer": "hello"
+	},
+	{
+		"question": "hey",
+		"answer": "Hey there!"
+	},
+	{
+		"question": "hey",
+		"answer": "Hey there again!"
+	},
+	{
+		"question": "How much is litre coke per case?",
+		"answer": "Joemar’s Triple & Grocery: 410.00 | Big B: 405.00 | Mejos Store: 400.00"
+	},
+	{
+		"question": "How much is a pack of frozen foods like hotdog?",
+		"answer": "Joemar’s Triple & Grocery: 50.00 | Big B: 60.00 | Mejos Store: 55.00"
+	},
+	{
+		"question": "How much is your family sardines by dozen?",
+		"answer": "Joemar’s Triple & Grocery: 282.00 | Big B: 279.00 | Mejos Store: 276.00"
+	},
+	{
+		"question": "How much is a dozen of junk foods?",
+		"answer": "Joemar’s Triple & Grocery: 78.00 | Big B: 84.00 | Mejos Store: 80.00"
+	},
+	{
+		"question": "How much is a dozen of Lucky Me Pancit Canton?",
+		"answer": "Joemar’s Triple & Grocery: 130.00 | Big B: 138.00 | Mejos Store: 132.00"
+	},
+	{
+		"question": "How much is Quickchow beef and chicken per dozen?",
+		"answer": "Joemar’s Triple & Grocery: 92.00 | Big B: 96.00 | Mejos Store: 94.00"
+	},
+	{
+		"question": "How much is a case of 12oz Mountain Dew?",
+		"answer": "Joemar’s Triple & Grocery: 350.00 | Big B: 360.00 | Mejos Store: 355.00"
+	},
+	{
+		"question": "How much is Colgate green and red per dozen?",
+		"answer": "Joemar’s Triple & Grocery: 108.00 | Big B: 108.00 | Mejos Store: 108.00"
+	},
+	{
+		"question": "How much does it cost if I buy K-Blanca twin (1tie)?",
+		"answer": "Joemar’s Triple & Grocery: 130.00 | Big B: 125.00 | Mejos Store: 125.00"
+	},
+	{
+		"question": "How much per dozen of Sunsilk shampoo?",
+		"answer": "Joemar’s Triple & Grocery: 74.00 | Big B: 76.00 | Mejos Store: 74.00"
+	},
+	{
+		"question": "How much is one piece of family sardines?",
+		"answer": "Joemar’s Triple & Grocery: 27.00 | Big B: 26.00 | Mejos Store: 25.00"
+	},
+	{
+		"question": "How much is lucky me pancit canton if I buy one piece only?",
+		"answer": "Joemar’s Triple & Grocery: 12.00 | Big B: 14.00 | Mejos Store: 13.00"
+	},
+	{
+		"question": "How much is Sunsilk Shampoo in retail?",
+		"answer": "Joemar’s Triple & Grocery: 7.00 | Big B: 7.00 | Mejos Store: 7.00"
+	},
+	{
+		"question": "How much is one twin pack of K-Blanca?",
+		"answer": "Joemar’s Triple & Grocery: 15.00 | Big B: 14.00 | Mejos Store: 14.00"
+	},
+	{
+		"question": "How much is one piece of Colgate?",
+		"answer": "Joemar’s Triple & Grocery: 10.00 | Big B: 10.00 | Mejos Store: 10.00"
+	},
+	{
+		"question": "How much is litre coke per case?",
+		"answer": "Joemar’s Triple & Grocery: 410.00 | Big B: 405.00 | Mejos Store: 400.00"
+	},
+	{
+		"question": "How much is a pack of frozen foods like hotdog?",
+		"answer": "Joemar’s Triple & Grocery: 50.00 | Big B: 60.00 | Mejos Store: 55.00"
+	},
+	{
+		"question": "How much is your family sardines by dozen?",
+		"answer": "Joemar’s Triple & Grocery: 282.00 | Big B: 279.00 | Mejos Store: 276.00"
+	},
+	{
+		"question": "How much is a dozen of junk foods?",
+		"answer": "Joemar’s Triple & Grocery: 78.00 | Big B: 84.00 | Mejos Store: 80.00"
+	},
+	{
+		"question": "How much is a dozen of Lucky Me Pancit Canton?",
+		"answer": "Joemar’s Triple & Grocery: 130.00 | Big B: 138.00 | Mejos Store: 132.00"
+	},
+	{
+		"question": "How much is Quickchow beef and chicken per dozen?",
+		"answer": "Joemar’s Triple & Grocery: 92.00 | Big B: 96.00 | Mejos Store: 94.00"
+	},
+	{
+		"question": "How much is a case of 12oz Mountain Dew?",
+		"answer": "Joemar’s Triple & Grocery: 350 | Big B: 360.00 | Mejos Store: 355.00"
+	},
+	{
+		"question": "How much is Colgate green and red per dozen?",
+		"answer": "Joemar’s Triple & Grocery: 108.00 | Big B: 108.00 | Mejos Store: 108.00"
+	},
+	{
+		"question": "How much does it cost if I buy K-Blanca twin (1tie)?",
+		"answer": "Joemar’s Triple & Grocery: 130.00 | Big B: 125.00 | Mejos Store: 125.00"
+	},
+	{
+		"question": "How much per dozen of Sunsilk shampoo?",
+		"answer": "Joemar’s Triple & Grocery: 74.00 | Big B: 76.00 | Mejos Store: 74.00"
+	},
+	{
+		"question": "How much is one piece of family sardines?",
+		"answer": "Joemar’s Triple & Grocery: 27.00 | Big B: 26.00 | Mejos Store: 25.00"
+	},
+	{
+		"question": "How much is lucky me pancit canton if I buy one piece only?",
+		"answer": "Joemar’s Triple & Grocery: 12.00 | Big B: 14.00 | Mejos Store: 13.00"
+	},
+	{
+		"question": "How much is Sunsilk Shampoo in retail?",
+		"answer": "Joemar’s Triple & Grocery: 7.00 | Big B: 7.00 | Mejos Store: 7.00"
+	},
+	{
+		"question": "How much is one twin pack of K-Blanca?",
+		"answer": "Joemar’s Triple & Grocery: 15.00 | Big B: 14.00 | Mejos Store: 14.00"
+	},
+	{
+		"question": "How much is one piece of Colgate?",
+		"answer": "Joemar’s Triple & Grocery: 10.00 | Big B: 10.00 | Mejos Store: 10.00"
+	},
+	{
+		"question": "Do you offer home delivery or curbside pickup and is there any fee?",
+		"answer": "Joemar’s Triple & Grocery: No, for pick up only. | Big B: Yes, we deliver but there is an additional fee. | Mejos Store: Yes, we will deliver when the customer wants and it depends on the location."
+	},
+	{
+		"question": "Do you have a return policy for perishable items if the quality doesn’t meet expectation?",
+		"answer": "Joemar’s Triple & Grocery: Yes | Big B: Yes | Mejos Store: Yes"
+	},
+	{
+		"question": "What are your store hours?",
+		"answer": "Joemar’s Triple & Grocery: Monday to Sunday: 7AM TO 7PM | Big B: Monday to Sunday: 7AM TO 7PM | Mejos Store: Open’s every day at 7AM TO 7PM except Saturday"
+	},
+	{
+		"question": "Are there seasonal discounts or special deals on certain items?",
+		"answer": "Joemar’s Triple & Grocery: Yes | Big B: Yes | Mejos Store: Yes"
+	},
+	{
+		"question": "What are the available sizes of eggs do you have?",
+		"answer": "Joemar’s Triple & Grocery: SMALL TO LARGE | Big B: SMALL TO LARGE | Mejos Store: SMALL TO LARGE"
+	},
+	{
+		"question": "How much is one tray of XL eggs?",
+		"answer": "Joemar’s Triple & Grocery: 290.00 | Big B: 290.00 | Mejos Store: 290.00"
+	},
+	{
+		"question": "What laundry soap is available?",
+		"answer": "Joemar’s Triple & Grocery: Surf, Wings, Pride, Tide, Ariel | Big B: Surf, Wings, Pride, Tide, Ariel | Mejos Store: Surf, Wings, Pride, Tide, Ariel"
+	},
+	{
+		"question": "How much is Surf per dozen?",
+		"answer": "Joemar’s Triple & Grocery: 96.00 | Big B: 94.00 | Mejos Store: 98.00"
+	},
+	{
+		"question": "How much is Wings per dozen?",
+		"answer": "Joemar’s Triple & Grocery: 72.00 | Big B: 72.00 | Mejos Store: 74.00"
+	},
+	{
+		"question": "How much is Pride per dozen?",
+		"answer": "Joemar’s Triple & Grocery: 76.00 | Big B: 74.00 | Mejos Store: 72.00"
+	},
+	{
+		"question": "How much is Ariel twin?",
+		"answer": "Joemar’s Triple & Grocery: 140.00 | Big B: 135.00 | Mejos Store: 130.00"
+	},
+	{
+		"question": "How much is litre coke per case?",
+		"answer": "Joemar’s Triple & Grocery: 410.00 | Big B: 405.00 | Mejos Store: 400.00"
+	},
+	{
+		"question": "How much is 1.5 litre coke?",
+		"answer": "Joemar’s Triple & Grocery: 410.00/75.00 each | Big B: 415.00/80.00 each | Mejos Store: 410.00/75.00 each"
+	},
+	{
+		"question": "How much is Mismo coke?",
+		"answer": "Joemar’s Triple & Grocery: 205.00 | Big B: 210.00 | Mejos Store: 200.00"
+	},
+	{
+		"question": "How much is 12oz coke?",
+		"answer": "Joemar’s Triple & Grocery: 340.00 | Big B: 340.00 | Mejos Store: 55.00"
+	},
+	{
+		"question": "How much is a pack of frozen foods like hotdog?",
+		"answer": "Joemar’s Triple & Grocery: 50.00 | Big B: 60.00 | Mejos Store: 55.00"
+	},
+	{
+		"question": "How much is 60pcs siomai beef and chicken?",
+		"answer": "Joemar’s Triple & Grocery: 170.00 | Big B: 175.00 | Mejos Store: 165.00"
+	},
+	{
+		"question": "How much is one pack longganisa?",
+		"answer": "Joemar’s Triple & Grocery: 15.00 | Big B: 15.00 | Mejos Store: 15.00"
+	},
+	{
+		"question": "How much is your family sardines by dozen?",
+		"answer": "Joemar’s Triple & Grocery: 282.00 | Big B: 279.00 | Mejos Store: 276.00"
+	},
+	{
+		"question": "How much is a dozen of junk foods?",
+		"answer": "Joemar’s Triple & Grocery: 78.00 | Big B: 84.00 | Mejos Store: 80.00"
+	},
+	{
+		"question": "How much is a dozen of Lucky Me Pancit Canton?",
+		"answer": "Joemar’s Triple & Grocery: 130.00 | Big B: 138.00 | Mejos Store: 132.00"
+	},
+	{
+		"question": "How much is Quickchow beef and chicken per dozen?",
+		"answer": "Joemar’s Triple & Grocery: 92.00 | Big B: 96.00 | Mejos Store: 94.00"
+	},
+	{
+		"question": "How much is Lucky Me noodles?",
+		"answer": "Joemar’s Triple & Grocery: 108.00 | Big B: 114.00 | Mejos Store: 110.00"
+	},
+	{
+		"question": "How much is a case of 12oz Mountain Dew?",
+		"answer": "Joemar’s Triple & Grocery: 350.00 | Big B: 360.00 | Mejos Store: 355.00"
+	},
+	{
+		"question": "How much is Colgate green and red per dozen?",
+		"answer": "Joemar’s Triple & Grocery: 108.00 | Big B: 108.00 | Mejos Store: 108.00"
+	},
+	{
+		"question": "What other toothpaste are available?",
+		"answer": "Joemar’s Triple & Grocery: We have Close Up, Hapee | Big B: We have Close Up, Hapee | Mejos Store: We have Close Up, Hapee"
+	},
+	{
+		"question": "How much does it cost if I buy K-Blanca twin (1tie)?",
+		"answer": "Joemar’s Triple & Grocery: 130.00 | Big B: 125.00 | Mejos Store: 125.00"
+	},
+	{
+		"question": "How about K-Blanca single (1tie)?",
+		"answer": "Joemar’s Triple & Grocery: 78.00 | Big B: 75.00 | Mejos Store: 75.00"
+	},
+	{
+		"question": "What other coffee’s are available?",
+		"answer": "Joemar’s Triple & Grocery: Nescafe, Kopiko, Creamy White | Big B: Nescafe, Kopiko, Creamy White | Mejos Store: Nescafe, Kopiko, Creamy White"
+	},
+	{
+		"question": "How much per dozen of Sunsilk shampoo?",
+		"answer": "Joemar’s Triple & Grocery: 74.00 | Big B: 76.00 | Mejos Store: 74.00"
+	},
+	{
+		"question": "What are other stock of shampoo do you have?",
+		"answer": "Joemar’s Triple & Grocery: Palmolive, Gard, Head&Shoulder, Clear | Big B: Palmolive, Gard, Head&Shoulder, Clear | Mejos Store: Palmolive, Gard, Head&Shoulder, Clear"
+	},
+	{
+		"question": "How much Palmolive per dozen?",
+		"answer": "Joemar’s Triple & Grocery: Palmolive is 78.00 | Big B: 72.00 | Mejos Store: 74.00"
+	},
+	{
+		"question": "How much Gard per dozen?",
+		"answer": "Joemar’s Triple & Grocery: 74.00 | Big B: 76.00 | Mejos Store: 74.00"
+	},
+	{
+		"question": "How much Clear per dozen?",
+		"answer": "Joemar’s Triple & Grocery: 74.00 | Big B: 76.00 | Mejos Store: 74.00"
+	},
+	{
+		"question": "How much is one piece of family sardines?",
+		"answer": "Joemar’s Triple & Grocery: 27.00 | Big B: 26.00 | Mejos Store: 25.00"
+	},
+	{
+		"question": "How much is lucky me pancit canton if I buy one piece only?",
+		"answer": "Joemar’s Triple & Grocery: 12.00 | Big B: 14.00 | Mejos Store: 13.00"
+	},
+	{
+		"question": "How much is Sunsilk Shampoo in retail?",
+		"answer": "Joemar’s Triple & Grocery: 7.00 | Big B: 7.00 | Mejos Store: 7.00"
+	},
+	{
+		"question": "How much is one twin pack of K-Blanca?",
+		"answer": "Joemar’s Triple & Grocery: 15.00 | Big B: 14.00 | Mejos Store: 14.00"
+	},
+	{
+		"question": "How much is one piece of Colgate?",
+		"answer": "Joemar’s Triple & Grocery: 10.00 | Big B: 10.00 | Mejos Store: 10.00"
+	},
+	{
+		"question": "How much is one piece Close up?",
+		"answer": "Joemar’s Triple & Grocery: 10.00 | Big B: 10.50 | Mejos Store: 9.00"
+	},
+	{
+		"question": "How much is one piece of Hapee?",
+		"answer": "Joemar’s Triple & Grocery: 8.00 | Big B: 8.00 | Mejos Store: 8.00"
+	},
+	{
+		"question": "What are other stock of shampoo do you have?",
+		"answer": "Joemar’s Triple & Grocery: Palmolive, Gard, Head&Shoulder, Clear | Big B: Palmolive, Gard, Head&Shoulder, Clear | Mejos Store: Palmolive, Gard, Head&Shoulder, Clear"
+	}
+]
 }

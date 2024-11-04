@@ -53,8 +53,6 @@ class UserDetailView(generics.RetrieveAPIView):
 
 
 
-
-    
 # Load the knowledge base from a JSON file
 def load_knowledge_base(file_path: str):
     full_path = os.path.join(BASE_DIR, file_path)
@@ -67,7 +65,6 @@ def save_knowledge_base(file_path: str, data: dict):
     full_path = os.path.join(BASE_DIR, file_path)
     with open(full_path, 'w') as file:
         json.dump(data, file, indent=2)
-
 
 def find_best_match(user_question: str, questions: list[str]) -> str | None:
     matches = get_close_matches(user_question, questions, n=1, cutoff=0.6)
@@ -95,7 +92,10 @@ class ChatbotViewSet(viewsets.ViewSet):
 
             if best_match:
                 answer = get_answer_for_question(best_match, knowledge_base)
-                return Response({'answer': answer}, status=status.HTTP_200_OK)
+                if answer:  # Check if answer is not None
+                    return Response({'answer': answer}, status=status.HTTP_200_OK)  # Return the answer without modification
+                else:
+                    return Response({'answer': "I couldn't find an answer for that."}, status=status.HTTP_200_OK)
             else:
                 return Response({'answer': "I don't understand the question."}, status=status.HTTP_200_OK)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
